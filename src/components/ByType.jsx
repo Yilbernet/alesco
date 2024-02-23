@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Dropdown } from 'semantic-ui-react'; 
+// import { Dropdown } from 'semantic-ui-react'; 
 
 const ByType = ({ getByType }) => {
     const [types, setTypes] = useState({});
@@ -20,13 +20,13 @@ const ByType = ({ getByType }) => {
     return (
         <div>
             
-            <Dropdown
+            {/* <Dropdown
                 placeholder="Select Type"
                 // fluid
                 // selection
                 options={options}
                 onChange={(e, data) => getByType(data.value)}
-            />
+            /> */}
         </div>
     );
 };
